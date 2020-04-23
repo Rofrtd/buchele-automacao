@@ -719,7 +719,7 @@ header.sticky .header-menu {
 #first-slider .slide1,
 .slide2,
 .slide3 {
-  background-image: url(http://via.placeholder.com/1900x740/000/fff);
+  background-image: url(../images/buchele-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
