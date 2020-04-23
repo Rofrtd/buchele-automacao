@@ -3420,11 +3420,30 @@ div.about-faq-wrapper .panel-faq .panel-body {
 23. Footer Wrapper
 ================================================
 */
+.foxxy{
+  width: 140px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.footer-foxxy{
+  display: inline;
+  width: 80px;
+  border-radius: 7px;
+  padding: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
 .footer-wrapper {
   background: #003769;
   float: left;
   padding: 0 0 80px;
   width: 100%;
+  max-height: 220px;
 }
 .search-wrapper {
   background: #ffcb36;
