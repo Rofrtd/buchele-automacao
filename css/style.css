@@ -422,9 +422,9 @@ header .navbar {
   margin: 0;
 }
 .menu-logo {
-  width: 45px;
-  margin: 0;
-  padding: 0;
+  width: 40px;
+  margin: -5px;
+  padding: 0px;
 }
 
 .footer-logo {
@@ -452,7 +452,7 @@ header .navbar-default .navbar-nav > li > a {
   color: #252525;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 24px 20px 25px;
+  padding: 15px 20px 10px;
   display: block;
   position: relative;
   text-shadow: none;
