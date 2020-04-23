@@ -3356,22 +3356,17 @@ div.about-faq-wrapper .panel-faq .panel-body {
 /** Google Map **/
 .google-map {
   float: left;
-  margin: 80px 0 0;
+  margin: 20px 0 0;
   width: 100%;
   position: relative;
 }
 .google-map iframe {
   border: medium none;
-  height: 750px;
-  margin: 0 0 -6px;
+  height: 550px;
   width: 100%;
 }
 /** Contato Info **/
 .contact-info-main {
-  bottom: auto;
-  float: left;
-  position: absolute;
-  top: -80px;
   width: 100%;
 }
 .contact-info {
@@ -3379,6 +3374,10 @@ div.about-faq-wrapper .panel-faq .panel-body {
   border-radius: 10px;
   padding: 50px 80px;
   width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .contact-info .title {
   margin: 0;
