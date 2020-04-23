@@ -216,8 +216,6 @@ div.title img {
   text-align: center;
   vertical-align: middle;
 }
-.overlay-style-one .box .content a {
-}
 
 /* Button Effects */
 .btn {
@@ -1813,11 +1811,10 @@ div.about-faq-wrapper .panel-faq .panel-body {
 }
 .single-blog-post .text-holder .meta-box .meta-info li {
   display: inline-block;
-  float: left;
+  float: none;
   line-height: 16px;
 }
-.single-blog-post .text-holder .meta-box .meta-info li:last-child {
-}
+
 .single-blog-post .text-holder .meta-box .meta-info li a {
   color: #848484;
   font-size: 16px;
@@ -1892,8 +1889,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
   display: block;
   margin-top: 40px;
 }
-.blog-single-area .bottom-content-box .img-box {
-}
 .blog-single-area .bottom-content-box .img-box img {
   width: 100%;
 }
@@ -1914,14 +1909,12 @@ div.about-faq-wrapper .panel-faq .panel-body {
   border-top: 1px solid #f2f2f2;
   margin-top: 36px;
 }
-.blog-single-area .tag-box .left {
-}
 .blog-single-area .tag-box .left ul {
   overflow: hidden;
 }
 .blog-single-area .tag-box .left ul li {
   display: inline-block;
-  float: left;
+  float: none;
   margin-right: 10px;
   line-height: 35px;
 }
@@ -2112,8 +2105,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
   font-size: 14px;
   font-weight: 400;
   margin: 0 0 6px;
-}
-.add-comment-box .add-rating-box ul {
 }
 .add-comment-box .add-rating-box ul li {
   border-right: 1px solid #ebebeb;
@@ -2320,8 +2311,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
 .single-sidebar.comment .sec-title {
   padding-bottom: 38px;
 }
-.single-sidebar .comment-box {
-}
 .single-sidebar .comment-box .single-item {
   position: relative;
   display: block;
@@ -2472,8 +2461,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
   line-height: 20px;
   margin: 0;
 }
-.single-sidebar .comment-box .single-box .right-content {
-}
 .single-sidebar .comment-box .single-box .right-content .read-comment {
   display: block;
   margin: 11px 0px;
@@ -2502,8 +2489,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
   a:hover
   span:before {
   color: #e4e2e2;
-}
-.single-sidebar .popular-post {
 }
 .single-sidebar .popular-post li {
   margin-bottom: 20px;
