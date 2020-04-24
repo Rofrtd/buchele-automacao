@@ -3369,7 +3369,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
   width: 100%;
 }
 .contact-info {
-  background: #ffcb37;
+  background:white ;
   border-radius: 10px;
   padding: 50px 80px;
   width: 100%;
@@ -3379,35 +3379,43 @@ div.about-faq-wrapper .panel-faq .panel-body {
   -o-border-radius: 10px;
 }
 .contact-info .title {
-  margin: 0;
+  margin: 30px;
 }
 .contact-info .title .border {
   background: #003769;
   height: 1px;
   width: 150px;
   display: inline-block;
+  margin: 0 0 70px 0;
 }
 .contact-info .title h2:after {
   display: none;
 }
-.contact-box-img {
-  width: auto;
-  text-align: center;
-  margin-top: -6px;
+
+.contact-box{
+  border:0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  -webkit-box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
+  box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-.contact-box.border {
-  margin-bottom: 50px;
-  padding-bottom: 40px;
-  position: relative;
+
+.contact-box:hover{
+  background-color: whitesmoke;
+  border:1px solid white;
 }
-.contact-box img {
-  margin: 0 0 10px;
-}
+
 .contact-box h3 {
   font-weight: 700;
-  margin: 0 0 5px;
   font-size: 20px;
   color: #2d4966;
+  margin: 15px 0 10px 0;
 }
 .contact-box a {
   color: #2d4966;
@@ -3420,24 +3428,6 @@ div.about-faq-wrapper .panel-faq .panel-body {
 23. Footer Wrapper
 ================================================
 */
-.foxxy{
-  width: 140px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-.footer-foxxy{
-  display: inline;
-  width: 80px;
-  border-radius: 7px;
-  padding: 5px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-}
 .footer-wrapper {
   background: #003769;
   float: left;
