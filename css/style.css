@@ -1358,6 +1358,13 @@ div.about-faq-wrapper .panel-faq .panel-body {
 12. Projetos Recentes Wrapper
 ================================================
 */
+.project-img{
+  max-width: 500px;
+  margin: 30px;
+  -webkit-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+}
 .latest-projects-wrapper {
   padding: 73px 0 0;
   background: #ededed;
@@ -3925,6 +3932,16 @@ footer .address ul li::before {
   .copyright-wrapper ul {
     float: none;
     text-align: center;
+  }
+
+  .project-img{
+    max-width: 270px;
+    margin: 15px 15px 0 15px;
+  }
+
+  .project-txt{
+    width: 280px;
+    margin: 0 15px 0 15px;
   }
 }
 @media (max-width: 360px) {
