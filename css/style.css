@@ -2610,7 +2610,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
 */
 .breadcromb-wrapper {
   background: rgba(0, 0, 0, 0)
-    url("http://via.placeholder.com/1900x280/000/fff") no-repeat fixed top
+    url("../images/buchele-banner.jpg") no-repeat fixed top
     center / cover;
   position: relative;
   padding: 60px 0 10px;
@@ -2623,6 +2623,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
   position: absolute;
   top: 0;
   width: 100%;
+  opacity: 0.9;
 }
 .breadcromb-left {
   text-align: left;
