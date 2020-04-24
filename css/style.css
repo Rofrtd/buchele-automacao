@@ -2610,7 +2610,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
 */
 .breadcromb-wrapper {
   background: rgba(0, 0, 0, 0)
-    url("http://via.placeholder.com/1900x280/000/fff") no-repeat fixed top
+    url("../images/buchele-banner.jpg") no-repeat fixed top
     center / cover;
   position: relative;
   padding: 60px 0 10px;
@@ -2623,6 +2623,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
   position: absolute;
   top: 0;
   width: 100%;
+  opacity: 0.9;
 }
 .breadcromb-left {
   text-align: left;
@@ -3258,7 +3259,7 @@ div.about-faq-wrapper .panel-faq .panel-body {
 .contact-box h3 {
   font-weight: 700;
   font-size: 20px;
-  color: #2d4966;
+  color: black;
   margin: 15px 0 10px 0;
 }
 .contact-box a {
