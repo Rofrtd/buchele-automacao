@@ -834,9 +834,24 @@ header.sticky .header-menu {
 .width-50 {
   width: 50%;
 }
-.service-image {
+/* .service-image {
   position: relative;
+} */
+.youtube {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
+
+.youtube iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .about-wrapper img {
   height: auto;
   width: 100%;
@@ -991,7 +1006,7 @@ header.sticky .header-menu {
 .about-caption {
   float: left;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .about-caption h3 {
   font-weight: 700;
