@@ -817,6 +817,12 @@ header.sticky .header-menu {
   position: absolute;
 }
 
+.clientes.col-md-1.col-xs-2{
+display: inline-block;
+vertical-align: middle; 
+float:none;
+}
+
 .about-wrapper img {
   height: auto;
   width: 100%;
