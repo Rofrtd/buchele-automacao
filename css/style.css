@@ -685,17 +685,17 @@ header.sticky .header-menu {
   position: relative;
   z-index: 1;
 }
-.services-inner:hover {
+#services.services-inner:hover {
   background: #ffcb36;
 }
-.services-inner:hover h3,
-.services-inner:hover p {
+#services.services-inner:hover h3,
+#services.services-inner:hover p {
   color: #000;
 }
-.services-inner:hover .our-services-icon span:after {
+#services.services-inner:hover .our-services-icon span:after {
   border-top: 40px solid #fff;
 }
-.services-inner:hover a {
+#services.services-inner:hover a {
   background: #1c1c1c;
   color: #fff;
 }
@@ -747,17 +747,9 @@ header.sticky .header-menu {
 .our-services-text p {
   font-size: 15px;
 }
-.our-services-wrapper a {
-  border: 2px solid #1c1c1c;
-  color: #000;
-  padding: 8px 30px;
-  display: inline-block;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
-.our-services-wrapper a:hover {
-  background: #1c1c1c;
-  color: #fff;
+
+.our-services-wrapper h2:hover {
+  color:black;
 }
 /** Service Details **/
 .inner-page-wrapper.service-details-wrapper {
@@ -3264,31 +3256,34 @@ div.about-faq-wrapper .panel-faq .panel-body {
   border-radius: 10px;
   padding: 10px;
   margin: 20px 0 20px 0;
-  -webkit-box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
-  box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.75);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.25);
 }
 
 .contact-box:hover{
-  background-color: whitesmoke;
-  border:1px solid white;
+  background-color:  #ffcb36;
+  /* border:1px solid white; */
 }
 
 .contact-box h3 {
   font-weight: 700;
   font-size: 20px;
-  color: black;
+  color: #003769;
   margin: 15px 0 10px 0;
 }
 .contact-box a {
-  color: #2d4966;
+  color: #003769;
 }
 .contact-box p {
   line-height: 22px;
+  color: #003769;
+}
+
+.contact-box-media{
+  border:0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  box-shadow: 11px 10px 9px -9px rgba(0,0,0,0.25);
 }
 /*
 ================================================
