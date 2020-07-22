@@ -2038,7 +2038,7 @@ footer ul li a:focus {
   color: #fff;
   margin-bottom: 15px;
   padding: 0;
-  padding-right: 30px;
+  padding-right: 0px;
 }
 .address li span {
   color: #ffcb36;
